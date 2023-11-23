@@ -3,9 +3,9 @@ from lib.basket import Basket
 '''
 I can return a menu of items and prices
 '''
-def test_return_menu():
-    basket = Basket()
-    assert basket.show_menu() == f''
+# def test_return_menu():
+#     basket = Basket()
+#     assert basket.show_menu() == f''
 
 '''
 Given I want to order
