@@ -1,11 +1,11 @@
-from src.order import Order
+from lib.basket import Basket
 
 '''
 I can return a menu of items and prices
 '''
 def test_return_menu():
-    order = Order()
-    assert order.show_menu() == f''
+    basket = Basket()
+    assert basket.show_menu() == f''
 
 '''
 Given I want to order
